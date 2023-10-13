@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.damian_pumpkin",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -7], "size": [16, 16, 15], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "face",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [3, 16, 1], "uv": [27, 34]},
+						{"origin": [5, 2, -8], "size": [3, 11, 1], "uv": [0, 0]},
+						{"origin": [-5, 13, -8], "size": [13, 3, 1], "uv": [0, 31]},
+						{"origin": [-5, 0, -8], "size": [13, 2, 1], "uv": [28, 31]},
+						{"origin": [-2, 9, -8], "size": [4, 4, 1], "uv": [0, 35]},
+						{"origin": [2, 6, -8], "size": [3, 3, 1], "uv": [18, 35]},
+						{"origin": [-5, 6, -8], "size": [3, 3, 1], "uv": [10, 35]},
+						{"origin": [-2, 8, -8], "size": [1, 1, 1], "uv": [35, 38]},
+						{"origin": [-5, 3, -8], "size": [1, 1, 1], "uv": [8, 10]},
+						{"origin": [4, 3, -8], "size": [1, 1, 1], "uv": [8, 8]},
+						{"origin": [1, 8, -8], "size": [1, 1, 1], "uv": [35, 36]},
+						{"origin": [2, 12, -8], "size": [1, 1, 1], "uv": [35, 34]},
+						{"origin": [4, 12, -8], "size": [1, 1, 1], "uv": [9, 13]},
+						{"origin": [-3, 12, -8], "size": [1, 1, 1], "uv": [11, 11]},
+						{"origin": [-5, 12, -8], "size": [1, 1, 1], "uv": [11, 9]},
+						{"origin": [-2, 2, -8], "size": [2, 1, 1], "uv": [8, 6]},
+						{"origin": [0, 5, -8], "size": [2, 1, 1], "uv": [8, 4]},
+						{"origin": [3, 2, -8], "size": [2, 1, 1], "uv": [8, 2]},
+						{"origin": [-5, 2, -8], "size": [2, 1, 1], "uv": [8, 0]},
+						{"origin": [-2, 6, -8], "size": [4, 1, 1], "uv": [0, 12]}
+					]
+				}
+			]
+		}
+	]
+}

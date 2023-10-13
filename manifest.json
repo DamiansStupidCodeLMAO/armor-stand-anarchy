@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Armor Stand Anarchy + Paintings 4.0: Cushions and Curses",
+        "description": "Click \"Read More\" to read the full description.\n§c§lDISCLAIMER: THE PAINTINGS ARE RENAMED ARMOR STANDS TOO! PLACE THE ARMOR STAND AGAINST A WALL FOR THE PAINTING TO PROPERLY CONNECT.\n§a§lby Damian Shorts and sneakyninjaMX \n§rRename armor stands to give them cool models! Current 3D options: Warden, Wither, Statue, Technoblade, Dragon, Dirt, Stone, Pot, Scarecrow, Subscribe, Follow, Sphere, Minecraft Laptop, BSOD Laptop, Rainbow Laptop, Jens, Vu, Agnes, Minecraft Live Skybox, Sneakys Pumpkin, Damians Pumpkin, Melon Sheep, Large TV Monitor (poseable), TV Monitor (poseable), Herobrine, Nether Reactor (poseable), Lamp (poseable), and two easter eggs involving the creators of the pack\nCurrent Retextured Armor Stand options: Skeleton, Invisible, Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Mangrove, Cherry, Bamboo, Warped, Crimson, Bumble Peach, Bumble Maple, Bumble Pear, Bumble Lemon, Bumble Orange, Bumble Sakura, \nCurrent 2D options (Painting style, still uses armor stands): Mojang when minecoins, Vanilla Cake Variants, *trumpet sound*, Bliss, Beginnings, Chalkboard, Water, Earth, Fire, Air, sneakyninjaMX stare, Floaticons, Peaceful Sneaky, Peaceful Damian, Sus Meme 1, Mob Vote Heaven, Villager Painting, Sky Selfie, Guardian of the Realm, The Bois, ",
+        "uuid": "8365515f-3d69-441b-a639-6447916713ed",
+        "version": [
+            3,
+            5,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            100
+        ]
+    },
+    "modules": [{
+            "type": "resources",
+            "uuid": "f5e594b2-595c-4589-a8bd-0079497f58a5",
+            "version": [
+                2,
+                0,
+                0
+            ]
+        }
+    ]
+}

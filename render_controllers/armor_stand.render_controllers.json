@@ -1,0 +1,122 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.armor_stand": {
+      "arrays": {
+          "textures": {
+            "array.default": [
+              "texture.oak",
+              "texture.spruce",
+              "texture.acacia",
+              "texture.birch",
+              "texture.darkoak",
+              "texture.jungle",
+              "texture.mangrove",
+              "texture.warped",
+              "texture.crimson",
+              "texture.maple",
+              "texture.sakura",
+              "texture.peach",
+              "texture.pear",
+              "texture.lemon",
+              "texture.orange",
+              "texture.cherry",
+              "texture.bamboo"
+            ],
+            "array.television": [
+               "texture.zombie_fight",
+               "texture.parkour",
+               "texture.breaking_news",
+               "texture.floaticon_trio",
+               "texture.creeper_screensaver",
+               "texture.pixel_cafe",
+               "texture.colortest",
+               "texture.colortest",
+               "texture.colortest",
+               "texture.colortest",
+               "texture.colortest",
+               "texture.colortest",
+               "texture.colortest"
+            ],
+            "array.reactor": [
+               "texture.nether_reactor_phase1",
+               "texture.nether_reactor_phase2",
+               "texture.nether_reactor_phase3",
+               "texture.nether_reactor_phase4",
+               "texture.nether_reactor_phase1",
+               "texture.nether_reactor_phase2",
+               "texture.nether_reactor_phase3",
+               "texture.nether_reactor_phase4",
+               "texture.nether_reactor_phase1",
+               "texture.nether_reactor_phase2",
+               "texture.nether_reactor_phase3",
+               "texture.nether_reactor_phase4",
+               "texture.nether_reactor_phase1"
+            ],
+            "array.lamps": [ 
+               "texture.lamp_red_shade",
+               "texture.lamp_orange_shade",
+               "texture.lamp_yellow_shade",
+               "texture.lamp_lime_shade",
+               "texture.lamp_green_shade",
+               "texture.lamp_cyan_shade",
+               "texture.lamp_light_blue_shade",
+               "texture.lamp_blue_shade",
+               "texture.lamp_purple_shade",
+               "texture.lamp_magenta_shade",
+               "texture.lamp_pink_shade",
+               "texture.lamp_white_shade",
+               "texture.lamp_gray_shade"
+            ],
+            "array.chairs": [ 
+             "texture.chair_white_cushions",
+             "texture.chair_yellow_cushions",
+             "texture.chair_orange_cushions",
+             "texture.chair_red_cushions",
+             "texture.chair_purple_cushions",
+             "texture.chair_pink_cushions",
+             "texture.chair_magenta_cushions",
+             "texture.chair_lime_cushions",
+             "texture.chair_green_cushions",
+             "texture.chair_gray_cushions",
+             "texture.chair_cyan_cushions",
+             "texture.chair_brown_cushions",
+             "texture.chair_blue_cushions",
+             "texture.chair_light_blue_cushions"
+            ]
+          },
+          "geometries": {
+            "array.blahajar": [ 
+             "geometry.lil_blahaj",
+             "geometry.blahaj",
+             "geometry.big_blahaj",
+             "geometry.lil_blahaj",
+             "geometry.blahaj",
+             "geometry.big_blahaj",
+             "geometry.lil_blahaj",
+             "geometry.blahaj",
+             "geometry.big_blahaj",
+             "geometry.lil_blahaj",
+             "geometry.blahaj",
+             "geometry.big_blahaj",
+             "geometry.lil_blahaj",
+             "geometry.blahaj"
+            ]
+          }
+      },
+      "geometry": "query.is_name_any('Statue','Damian','Sneaky') ? Geometry.armor_statue : (query.is_name_any('Wither') ? Geometry.fake_wither : (query.is_name_any('Warden') ? Geometry.fake_warden : (query.is_name_any('Technoblade') ? Geometry.technoblade_statue : (query.is_name_any('Dragon') ? Geometry.fake_ender_dragon : (query.is_name_any('Dirt','Stone') ? Geometry.fake_blocks : (query.is_name_any('Pot') ? Geometry.large_flower_pot : (query.is_name_any('Scarecrow') ? Geometry.scarecrow : (query.is_name_any('Vanilla Cake Variants') ? Geometry.fake_painting_small : (query.is_name_any('Water','Earth','Fire','Air') ? Geometry.fake_painting_medium : (query.is_name_any('*trumpet sound*','sneakyninjaMX stare') ? Geometry.fake_painting_large : (query.is_name_any('Villager Painting') ? Geometry.fake_painting_large_tall : (query.is_name_any('Mojang when minecoins') ? Geometry.fake_painting_tall : (query.is_name_any('Chalkboard') ? Geometry.fake_painting_wide : (query.is_name_any('Sus Meme 1','Mob Vote Heaven') ? Geometry.fake_painting_medium : (query.is_name_any('Bliss','Peaceful Sneaky','Floaticons','Guardian of the Realm','Sky Selfie') ? Geometry.fake_painting_medium_wide : (query.is_name_any('Beginnings','Peaceful Damian','The Bois') ? Geometry.fake_painting_large_wide : (query.is_name_any('Subscribe') ? Geometry.likeandsub : (query.is_name_any('Sphere') ? Geometry.sphere : (query.is_name_any('Minecraft Laptop','BSOD Laptop', 'Rainbow Laptop', 'Kawaii Laptop', 'Blue RGB Laptop') ? Geometry.laptop_computer : (query.is_name_any('Minecraft Live Skybox') ? Geometry.skybox : (query.is_name_any('Agnes') ? Geometry.tiny_agnes : (query.is_name_any('Vu') ? Geometry.tiny_vu : (query.is_name_any('Jens') ? Geometry.tiny_jens : (query.is_name_any('Sneakys Pumpkin') ? Geometry.sneaky_pumpkin : (query.is_name_any('Melon Sheep') ? Geometry.melon_sheep : (query.is_name_any('Damians Pumpkin') ? Geometry.damian_pumpkin : (query.is_name_any('Follow') ? Geometry.follow : (query.is_name_any('TV Monitor') ? Geometry.monitor : (query.is_name_any('Large TV Monitor') ? Geometry.large_monitor : (query.is_name_any('Herobrine') ? Geometry.hero_brian_real : (query.is_name_any('Nether Reactor') ? Geometry.nether_reactor : (query.is_name_any('Lamp') ? Geometry.armor_stand_lamp_model : (query.is_name_any('Chair') ? Geometry.armor_stand_chair : (query.is_name_any('Blahaj') ? array.blahajar[variable.armor_stand.pose_index] : (query.is_name_any('Tardis') ? Geometry.tardis : (query.is_name_any('Blanket') ? Geometry.asa_blanket : (query.is_name_any('Agent') ? Geometry.agent : (query.is_name_any('Tiered Cake', 'Tall Cake') ? Geometry.cake_tall_full : (query.is_name_any('Nontendo Swap') ? Geometry.nontendo_swap : Geometry.default)))))))))))))))))))))))))))))))))))))))",
+      "materials": [ { "*": "(query.is_name_any('Sphere', 'Minecraft Laptop', 'BSOD Laptop', 'Sneakys Pumpkin', 'Damians Pumpkin', 'Kawaii Laptop', 'Blue RGB Laptop', 'Minecraft Live Skybox') ? Material.sphere : (query.is_name_any('Rainbow Laptop', 'TV Monitor', 'Large TV Monitor') ? material.armor_stand_anarchy_animated : Material.default))" } ],
+      "textures": [ "query.get_name == 'Statue' ? Texture.armor_statue : (query.get_name == 'Wither' ? Texture.fake_wither : (query.get_name == 'Damian' ? Texture.damian : (query.get_name == 'Warden' ? Texture.fake_warden : (query.get_name == 'Technoblade' ? Texture.technoblade_statue : (query.get_name == 'Dragon' ? Texture.fake_ender_dragon : (query.get_name == 'Dirt' ? Texture.dirt : (query.get_name == 'Stone' ? Texture.stone : (query.get_name == 'Pot' ? Texture.large_flower_pot : (query.get_name == 'Scarecrow' ? Texture.scarecrow : (query.get_name == 'Sneaky' ? Texture.sneaky : (query.get_name == 'Mojang when minecoins' ? Texture.stonks : (query.get_name == 'Vanilla Cake Variants' ? Texture.vcv : (query.get_name == '*trumpet sound*' ? Texture.skeletrumpet : (query.get_name == 'Bliss' ? Texture.bliss : (query.get_name == 'Beginnings' ? Texture.beginnings : (query.get_name == 'Chalkboard' ? Texture.chalkboard : (query.get_name == 'Water' ? Texture.water : (query.get_name == 'Earth' ? Texture.earth : (query.get_name == 'Fire' ? Texture.fire : (query.get_name == 'Air' ? Texture.air : (query.get_name == 'sneakyninjaMX stare' ? Texture.sneakystare : (query.get_name == 'Floaticons' ? Texture.floaticon_ad : (query.get_name == 'Subscribe' ? Texture.likeandsub : (query.get_name == 'Sphere' ? Texture.yellow : (query.get_name == 'Peaceful Sneaky' ? Texture.peaceful_mx : (query.get_name == 'Peaceful Damian' ? Texture.peaceful_damian : (query.get_name == 'Minecraft Laptop' ? Texture.laptop_minecraft : (query.get_name == 'BSOD Laptop' ? Texture.laptop_bsod : (query.get_name == 'Sus Meme 1' ? Texture.sus_meme_ai : (query.get_name == 'Minecraft Live Skybox' ? Texture.skybox : (query.get_name == 'Agnes' ? Texture.tiny_agnes : (query.get_name == 'Vu' ? Texture.tiny_vu : (query.get_name == 'Jens' ? Texture.tiny_jens : (query.get_name == 'Mob Vote Heaven' ? Texture.heaven : (query.get_name == 'Sneakys Pumpkin' ? Texture.sneaky_pumpkin : (query.get_name == 'Invisible' ? Texture.invisible : (query.get_name == 'Melon Sheep' ? Texture.melon_sheep : (query.get_name == 'Damians Pumpkin' ? Texture.damian_pumpkin : (query.get_name == 'Skeleton' ? Texture.skeleton_stand : (query.get_name == 'Oak' ? Texture.oak : (query.get_name == 'Dark Oak' ? Texture.darkoak : (query.get_name == 'Spruce' ? Texture.spruce : (query.get_name == 'Acacia' ? Texture.acacia : (query.get_name == 'Birch' ? Texture.birch : (query.get_name == 'Jungle' ? Texture.jungle : (query.get_name == 'Mangrove' ? Texture.mangrove : (query.get_name == 'Warped' ? Texture.warped : (query.get_name == 'Crimson' ? Texture.crimson : (query.get_name == 'Villager Painting' ? Texture.villager_painting : (query.get_name == 'Follow' ? Texture.follow : (query.get_name == 'Backpack' ? Texture.liam_backpack : (query.get_name == 'Tomato' ? Texture.tomato : (query.get_name == 'Rainbow Laptop' ? texture.laptop_computer_rainbow : (query.is_name_any('Large TV Monitor', 'TV Monitor') ? array.television[variable.armor_stand.pose_index] : (query.is_name_any('The Bois') ? texture.the_bois : (query.is_name_any('Sky Selfie') ? texture.sky_selfie : (query.is_name_any('Guardian of the Realm') ? texture.realm_guardian : (query.is_name_any('Herobrine') ? texture.hero_brian_real : (query.is_name_any('Nether Reactor') ? array.reactor[variable.armor_stand.pose_index] : (query.is_name_any('Bumble Peach') ? texture.peach : (query.is_name_any('Bumble Maple') ? texture.maple : (query.is_name_any('Bumble Pear') ? texture.pear : (query.is_name_any('Bumble Sakura') ? texture.sakura : (query.is_name_any('Bumble Lemon') ? texture.lemon : (query.is_name_any('Bumble Orange') ? texture.orange : (query.is_name_any('Lamp') ? array.lamps[variable.armor_stand.pose_index] : (query.is_name_any('Cherry') ? texture.cherry : (query.is_name_any('Bamboo') ? texture.bamboo : (query.is_name_any('Chair') ? array.chairs[variable.armor_stand.pose_index] : (query.is_name_any('Blahaj') ? texture.blahaj : (query.is_name_any('Tardis') ? texture.tardis : (query.is_name_any('Kawaii Laptop') ? texture.laptop_computer_kawaii : (query.is_name_any('Blue RGB Laptop') ? texture.laptop_computer_blue : (query.is_name_any('Blanket') ? texture.trans_blanket : (query.is_name_any('Agent') ? texture.agent : (query.is_name_any('Tiered Cake', 'Tall Cake') ? texture.cake_tall : (query.is_name_any('Nontendo Swap') ? texture.nontendo_swap : array.default[variable.Xvar])))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))" ],
+      "uv_anim": {
+        "offset": [ 0.0, "math.mod(math.floor(query.life_time * (query.is_name_any('Rainbow Laptop') ? 5 : (query.is_name_any('Large TV Monitor', 'TV Monitor') ? (variable.armor_stand.pose_index == 0 ? 5 : (variable.armor_stand.pose_index == 1 ? 7 : (variable.armor_stand.pose_index == 2 ? 4 : (variable.armor_stand.pose_index == 3 ? 7 : (variable.armor_stand.pose_index == 4 ? 4 : (variable.armor_stand.pose_index == 5 ? 3 : (1)))))))))),(query.is_name_any('Rainbow Laptop') ? 12 : (query.is_name_any('Large TV Monitor', 'TV Monitor') ? (variable.armor_stand.pose_index == 0 ? 9 : (variable.armor_stand.pose_index == 1 ? 12 : (variable.armor_stand.pose_index == 2 ? 4 : (variable.armor_stand.pose_index == 3 ? 8 : (variable.armor_stand.pose_index == 4 ? 14 : (variable.armor_stand.pose_index == 5 ? 8 : (1)))))))))) / (query.is_name_any('Rainbow Laptop') ? 12 : (query.is_name_any('Large TV Monitor', 'TV Monitor') ? (variable.armor_stand.pose_index == 0 ? 9 : (variable.armor_stand.pose_index == 1 ? 12 : (variable.armor_stand.pose_index == 2 ? 4 : (variable.armor_stand.pose_index == 3 ? 8 : (variable.armor_stand.pose_index == 4 ? 14 : (variable.armor_stand.pose_index == 5 ? 8 : (1)))))))))" ],
+        "scale": [ 1.0, "1 / (query.is_name_any('Rainbow Laptop') ? 12 : (query.is_name_any('Large TV Monitor', 'TV Monitor') ? (variable.armor_stand.pose_index == 0 ? 9 : (variable.armor_stand.pose_index == 1 ? 12 : (variable.armor_stand.pose_index == 2 ? 4 : (variable.armor_stand.pose_index == 3 ? 8 : (variable.armor_stand.pose_index == 4 ? 14 : (variable.armor_stand.pose_index == 5 ? 8 : (1)))))))))" ]
+      },
+      "overlay_color": {
+        "r": "this",
+        "g": "this",
+        "b": "this",
+        "a": "0.0"
+      }
+    }
+  }
+}

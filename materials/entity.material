@@ -1,0 +1,12 @@
+{
+    "materials":{
+        "version":"1.0.0",
+        "armor_stand_anarchy_animated:entity":{
+            "+defines":[
+                "ALPHA_TEST",
+                "USE_UV_ANIM",
+                "USE_EMISSIVE"
+            ]
+        }
+    }
+}
